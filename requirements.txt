@@ -1,0 +1,14 @@
+# Ghost Toolkit — Python 3.11+ required
+# All core features use the standard library only.
+# Optional packages below enhance output quality:
+
+# Uncomment to enable richer terminal output:
+# rich>=13.0.0          # Better tables, progress bars, syntax highlighting
+# colorama>=0.4.6       # Windows ANSI color support
+
+# Uncomment for extended functionality:
+# python-whois>=0.8.0   # Advanced WHOIS parsing
+# dnspython>=2.4.0      # Advanced DNS queries (wildcard detection, AXFR)
+# requests>=2.31.0      # More robust HTTP for fuzzer/banner grabber
+# paramiko>=3.3.0       # SSH banner grabbing with auth
+# scapy>=2.5.0          # Raw packet crafting (requires root)
